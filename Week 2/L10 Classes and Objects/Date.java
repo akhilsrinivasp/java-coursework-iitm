@@ -23,7 +23,6 @@ public class Date {
     public int getYear() {
         return year;
     }
-    // mutator methods
     public void setDay(int day) {
         this.day = day;
     }
@@ -31,6 +30,13 @@ public class Date {
         this.month = month;
     }
     public void setYear(int year) {
+        this.year = year;
+    }
+
+    // mutator methods
+    public void setDate(int day, int month, int year) {
+        this.day = day;
+        this.month = month;
         this.year = year;
     }
 
